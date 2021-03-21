@@ -1,0 +1,217 @@
+    # Project definitions (do not edit)
+Task: DeepWorkOut
+scorer: Carl & Louis Enslin
+date: Jan31
+multianimalproject: false
+
+    # Project path (change when moving around)
+project_path: C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl
+  & Louis Enslin-2021-01-31
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  ? C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis
+    Enslin-2021-01-31\videos\Ausfallschritt_1.avi
+  : crop: 0, 640, 0, 360
+  ? C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis
+    Enslin-2021-01-31\videos\Ausfallschritt_2.avi
+  : crop: 0, 640, 0, 360
+  ? C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis
+    Enslin-2021-01-31\videos\Ausfallschritt_3.avi
+  : crop: 0, 640, 0, 360
+  ? C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis
+    Enslin-2021-01-31\videos\Ausfallschritt_4.avi
+  : crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\Crunch_1.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\Crunch_2.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\Crunch_3.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\Crunch_4.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\Kniebeuge_1.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\Kniebeuge_2.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\Kniebeuge_3.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\Kniebeuge_4.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\PlankVar_1.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\PlankVar_2.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\PlankVar_3.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\PlankVar_4.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\Plank_1.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\Plank_2.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\Plank_3.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Deeplabcut_projekt\DeepWorkOut-Carl & Louis Enslin-2021-01-31\videos\Plank_4.avi:
+    crop: 0, 640, 0, 360
+
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Testvideos\Ausfallschritt_1.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Testvideos\Ausfallschritt_2.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Testvideos\Ausfallschritt_4.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Testvideos\Ausfallschritt_3.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Videos\PlankVar_4.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Videos\Kniebeuge_4.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Videos\PlankVar_1.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Videos\Crunch_4.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Videos\Plank_4.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Videos\Kniebeuge_1.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Videos\Kniebeuge_3.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Videos\Plank_1.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Videos\Crunch_3.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Videos\Ausfallschritt_4.avi:
+    crop: 0, 640, 0, 360
+  C:\Users\ujtjf\Desktop\LAMA_Projekt\Videos\Kniebeuge_2.avi:
+    crop: 0, 640, 0, 360
+bodyparts:
+- ankleleft
+- kneeleft
+- hipleft
+- shoulderleft
+- elbowleft
+- wristleft
+- forehead
+- chin
+- ankleright
+- kneeright
+- hipright
+- shoulderright
+- elbowright
+- wristright
+- upperback
+- middleback
+- lowerback
+- toesright
+- toesleft
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- - shoulderright
+  - lowerback
+- - shoulderleft
+  - middleback
+- - hipright
+  - shoulderright
+- - shoulderleft
+  - shoulderright
+- - ankleright
+  - kneeright
+- - hipright
+  - middleback
+- - shoulderright
+  - upperback
+- - shoulderleft
+  - chin
+- - chin
+  - shoulderright
+- - kneeleft
+  - hipleft
+- - forehead
+  - chin
+- - elbowright
+  - wristright
+- - shoulderleft
+  - hipright
+- - shoulderright
+  - hipleft
+- - shoulderleft
+  - forehead
+- - shoulderleft
+  - elbowleft
+- - shoulderright
+  - wristright
+- - elbowleft
+  - wristleft
+- - forehead
+  - shoulderright
+- - ankleleft
+  - toesleft
+- - hipleft
+  - hipright
+- - kneeright
+  - hipright
+- - upperback
+  - middleback
+- - ankleright
+  - toesright
+- - shoulderright
+  - elbowright
+- - ankleleft
+  - kneeleft
+- - hipright
+  - lowerback
+- - hipleft
+  - middleback
+- - shoulderright
+  - middleback
+- - middleback
+  - lowerback
+- - hipleft
+  - shoulderleft
+- - hipleft
+  - lowerback
+- - lowerback
+  - upperback
+- - toesleft
+  - kneeleft
+- - toesleft
+  - hipleft
+- - toesright
+  - kneeright
+- - toesright
+  - hipright
+
+skeleton_color: green
+pcutoff: 0.8
+dotsize: 4
+alphavalue: 0.7
+colormap: plasma
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_101
+default_augmenter: imgaug
+snapshotindex: -1
+batch_size: 4
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+croppedtraining: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
